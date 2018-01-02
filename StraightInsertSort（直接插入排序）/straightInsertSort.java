@@ -36,7 +36,7 @@ public class straightInsertSort {
 				int x = array[i];// 复制哨兵，防止在插入时数组越界
 				array[i] = array[i - 1];//先后移一个元素，类似与临时temp的作用，留出一个空位，留给插入或传递的元素
 				/*循环比较前临时数组中的数将其排序*/
-				while (x < array[j]) {//和所取哨兵进行比较，如果大于哨兵则后移，直到不大于哨兵
+				while (j>=0&&x < array[j]) {//和所取哨兵进行比较，如果大于哨兵则后移，直到不大于哨兵
 					array[j + 1] = array[j];
 					j--;//元素移动，向前走，判断前面还有没有大于哨兵的
 				}
