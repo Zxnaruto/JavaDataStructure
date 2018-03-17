@@ -120,4 +120,40 @@
   
       (3)运行结果：
          ![](https://github.com/Zxnaruto/JavaDataStructure/blob/master/TheSequenceOfArchitectural(最大子序列)/recursiveMaximumSubsquence/运行结果(recursiveMaximumSubsquence).png)
-      
+    
+    4.时间复杂度中对数的实例：<br>
+      (1)Binary Search(折半查找)：里面包含代码，运行结果，算法解释及时间复杂度分析<br>
+         这里给出时间复杂度分析：
+         
+         * @author XiaoHuZiXianShengZx
+         * 
+         * binary search(折半查找)：对已经排好序的元素，取中间的数与要查找的数进行比较，如果该数
+         * 大于中间的数则把范围定到后半部分，然后再取后半部分的中间值，继续此步骤，直到找到或没找
+         * 到。（如果小于反过来也是一样的）
+         * 
+         * 算法时间复杂度分析：
+         * whlie循环循环的条件是：high-low>=-1
+         * 由于循环内的执行时间为O(1),所以关键要看循环次数。
+         * 举个例子：一个16个数的数组需要循环（0-15）：
+         *          15->7
+         *          7->3
+         *          3->1     
+         *          1->0
+         *          0->-1
+         *          需要五次    2^(5-1)=16   
+         *          一个8个数的数组：
+         *          7->3
+         *          3->1
+         *          1->0
+         *          0->-1
+         *          需要四次   2^(4-1)=8
+         *          
+         *          所以以此类推 N=2^(k-1) 
+         *          k=log(N-1)
+         *          
+         *          又由于赋值语句时间为O(1)
+         *          所以 T(N)=log(N-1)+2
+         *          
+         *          简化得时间复杂度：logN
+        
+    
