@@ -1,0 +1,11 @@
+/**
+ * @author XiaoHuZiXianShengZx
+ * 
+ * 问题描述：
+ *     这是一个关于数组链表类的实现。包含对数组链表的一般操作。
+ *     1.保持基础数组和其容量，以及当前项数。
+ *     2.可以扩增数组的容量。
+ *     3.提供get和set的实现。
+ *     4.提供size(),isEmpty(),clear(),remove(),add()。
+ *     5.提供一个实现迭代器(Iterator)接口的类，可以完成对数组元素的操作，即next,hasNext,remove。
+ */
