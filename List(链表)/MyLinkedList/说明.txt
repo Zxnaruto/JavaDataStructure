@@ -1,0 +1,11 @@
+/**
+ * @author XiaoHuZiXianShengZx
+ * 
+ * 问题描述：
+ *     用双向链表实现LinkedList类:
+ *      1.包含链表的两端，表的大小及一些方法
+ *      2.包含节点Node类，它包含数据及到下一个节点的链和到前一个节点的链，以及一些构造方法。
+ *      3.实现一些方法如：clear(),remove(),add()等。
+ *      4.包含迭代器LinkedListIterator类(私有类)，实现Iterator接口，提供next,hasNext,remove方法。
+ *
+ */
