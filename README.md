@@ -45,7 +45,8 @@
     
     15.链表相关：
       (1)自增长度数组
-      (2)ArrayList类里面包含数组链表的初始化、add()、remove()、clear()、size()、isEmpty()、trimToSize()、get()、set()以及Iterator有关的hasNext，Next,remove。    
+      (2)MyArrayList类里面包含数组链表的初始化、add()、remove()、clear()、size()、isEmpty()、trimToSize()、get()、set()以及Iterator有关的hasNext，Next,remove。
+      (3)MyLinkedList类里面包含双向链表的初始化、add()、remove()、clear()、size()、isEmpty()、get()、set()以及Iterator有关的hasNext，Next,remove。
 ```
 ###     注意：这些算法有很多都是作者以自己的想法写的，有的效率不会太好，很多还待改进。
 
