@@ -42,7 +42,8 @@
       (1)不溢出随机数发生器
       (2)48比特随机数发生器
       (3)素性测试
-    
+      (4)在1~n中随机产生m个互不相同的数
+    
     15.链表相关：
       (1)自增长度数组
       (2)MyArrayList类里面包含数组链表的初始化、add()、remove()、clear()、size()、isEmpty()、trimToSize()、get()、set()以及Iterator有关的hasNext，Next,remove。
